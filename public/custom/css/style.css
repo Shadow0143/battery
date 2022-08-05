@@ -1,0 +1,56 @@
+/* CSS Document */
+/* general*/
+@import url(font-awesome.css);
+@import url("reset.css");
+
+:focus{border: 0; outline: 0}
+img{ max-width: 100%;}
+a:hover{text-decoration: none}
+a{
+    -ms-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    display: block;
+}
+.clears:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+/* Header Section */
+
+
+.card-header.date_sec02{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right_box01 .field_box{
+    display: inline-block;
+    vertical-align: middle
+  }
+  
+  .right_box01 .field_box input{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    border-radius: 3px
+  }
+
+  .right_box01 .field_box:first-child{
+      margin-right:20px;
+  }
+
+  .right_box01 .field_box:first-child input{
+      width:200px;
+  } 
+
+  .field_box span{
+      margin: 0 10px;
+  }
+  

@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Customer extends Model
+{
+  protected $guarded = [];
+
+  protected $table = 'customers';
+
+  function order() {
+        return $this->hasOne('App\Models\Order', 'ref_order');
+    }
+
+}
